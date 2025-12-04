@@ -41,10 +41,10 @@ This project fully follows assignment rules:
 
 ```
 .
-├── hand_prototype_convex.py     # Main prototype script
-├── README.md                    # Documentation
-├── requirements.txt             # Dependencies
-└── demo_video.mp4               # (Optional) Demo video
+├── hand_prototype_convex.py     
+├── README.md                   
+├── requirements.txt             
+└── demo_video.mp4               
 ```
 
 ---
@@ -134,3 +134,4 @@ Included in `requirements.txt`.
 **Sanchit Atre**  
 Hand Tracking Prototype – Classical Computer Vision  
 Python | OpenCV
+
