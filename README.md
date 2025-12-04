@@ -90,7 +90,7 @@ pip install -r requirements.txt
 
 ### **2. Run the Prototype**
 ```bash
-python hand_prototype_convex.py
+python demo.py
 ```
 
 ---
