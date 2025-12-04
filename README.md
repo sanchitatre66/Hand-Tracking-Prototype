@@ -44,7 +44,7 @@ This project fully follows assignment rules:
 ├── hand_prototype_convex.py     
 ├── README.md                   
 ├── requirements.txt             
-└── demo_video.mp4               
+             
 ```
 
 ---
