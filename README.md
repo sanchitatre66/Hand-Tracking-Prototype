@@ -1,7 +1,7 @@
-# Hand Tracking Proximity Prototype  
+# Hand Tracking Prototype  
 ### Classical Computer Vision — OpenCV + NumPy (No MediaPipe / No Deep Learning)
 
-This repository contains a **real-time hand tracking prototype** developed as part of the **Arvyax internship assignment**.  
+This repository contains a **real-time hand tracking prototype**.  
 The system tracks the user’s hand using only **classical computer vision techniques**, and classifies the interaction with a **virtual object boundary** into:
 
 - 🟢 **SAFE**  
@@ -25,7 +25,7 @@ This project fully follows assignment rules:
 - Distance-based interaction logic  
 
 ### ✔ Real-Time Performance
-- Runs at **8+ FPS** on CPU  
+- Runs at **12+ FPS** on CPU  
 - Lightweight and optimized  
 
 ### ✔ Visual Feedback Overlay
@@ -58,13 +58,10 @@ User clicks on their **palm** after pressing `c` to calibrate the skin tone.
 ### 2️⃣ Motion-Based Filtering  
 Only moving skin-like regions are kept to reduce false background detection.
 
-### 3️⃣ Face Exclusion  
-Detected face region is removed using a Haar Cascade to avoid misclassification.
-
-### 4️⃣ Convex Hull Extraction  
+### 3️⃣ Convex Hull Extraction  
 A convex hull is drawn around the largest valid contour for a clean hand shape.
 
-### 5️⃣ Distance-Based State Calculation  
+### 4️⃣ Distance-Based State Calculation 
 Hand center is compared with the virtual rectangle.
 
 | Distance | State     |
@@ -126,12 +123,9 @@ opencv-python
 numpy
 ```
 
-Included in `requirements.txt`.
-
----
-
 ## 🙋‍♂️ Author  
 **Sanchit Atre**  
 Hand Tracking Prototype – Classical Computer Vision  
 Python | OpenCV
+
 
