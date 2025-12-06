@@ -15,8 +15,7 @@ This project fully follows assignment rules:
 
 ## 🚀 Features
 
-### ✔ Classical Computer Vision (No ML Models)
-- HSV skin segmentation with calibration  
+### ✔ Classical Computer Vision (No ML Models)
 - Convex hull extraction for stable hand detection  
 - Contour filtering (area, solidity, aspect ratio)  
 - Motion detection  
