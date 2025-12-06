@@ -70,7 +70,7 @@ Hand center is compared with the virtual rectangle.
 | Near     | WARNING   |
 | Very Near / Inside | DANGER |
 
-### 6️⃣ Visual Overlays  
+### 5️⃣ Visual Overlays  
 - Current state label  
 - Convex hull + hand center  
 - Virtual object rectangle  
@@ -92,7 +92,7 @@ python demo.py
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Key | Function |
 |-----|----------|
@@ -104,7 +104,7 @@ python demo.py
 
 ---
 
-## 🧪 Calibration Guide
+## Calibration Guide
 
 To ensure accurate hand detection:
 
@@ -123,7 +123,7 @@ opencv-python
 numpy
 ```
 
-## 🙋‍♂️ Author  
+## 🙋🏻‍♂️ Author  
 **Sanchit Atre**  
 Hand Tracking Prototype – Classical Computer Vision  
 Python | OpenCV
